@@ -1,0 +1,15 @@
+<h1>Convert Temperature</h1>
+
+<form action="/convert" method="post">
+  <div>
+    <label for="temp">Temperature in &deg;F</label>
+    <%# we must have the `name` attribute on the input in order to send
+        parameters to the server. %>
+    <input type="text" id="temp" name="temp_f" value="<%= @temp_f %>">
+  </div>
+  <input type="submit" value="Convert">
+</form>
+
+<% if @temp_c  %>
+  The result is: <%= @temp_c %>&deg; C
+<% end %>
