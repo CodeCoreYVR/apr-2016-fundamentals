@@ -1,0 +1,43 @@
+.box {
+  height: 100px;
+}
+
+.grey {
+  background-color: grey;
+  height: 900px;
+}
+
+.big-left {
+  background-color: orange;
+  border-radius: 10px;
+  height: 400px;
+}
+
+.big-right {
+  background-color: blue;
+  border-radius: 10px;
+  height: 400px;
+}
+
+.small-left {
+  background-color: cyan;
+}
+.small-right {
+  background-color: green;
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
